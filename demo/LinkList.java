@@ -1,4 +1,5 @@
 package com.example.demo;
+import java.util.LinkedList;
 
 public class LinkList {
     public Node add(Node head, Node node) {

@@ -99,7 +99,7 @@ public class DemoApplication {
 //        node4.setData("2");
 //        Node linkList1=new Node();
 //        LinkList linkListNew1 = new LinkList();
-//        linkList1 = linkListNew1.add(linkList1, node1);
+//        linkList1 = linkListNew1.add(lyinkList1, node1);
 //        linkList1 = linkListNew1.add(linkList1, node2);
 //        linkList1 = linkListNew1.add(linkList1, node3);
 //        linkList1 = linkListNew1.add(linkList1, node4);
@@ -113,7 +113,9 @@ public class DemoApplication {
 //
 //        System.out.println("getCenterNode<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 //        System.out.println(linkListNew.getCenterNode(linkList));
-
+        System.out.println("Recursion<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println(new Recursion().Fibonacci(5));
+        System.out.println(new Recursion().ClimbStairs(3));
     }
 
 
