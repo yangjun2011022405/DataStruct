@@ -113,9 +113,21 @@ public class DemoApplication {
 //
 //        System.out.println("getCenterNode<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 //        System.out.println(linkListNew.getCenterNode(linkList));
-        System.out.println("Recursion<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-        System.out.println(new Recursion().Fibonacci(5));
-        System.out.println(new Recursion().ClimbStairs(3));
+//        System.out.println("Recursion<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+//        System.out.println(new Recursion().Fibonacci(5));
+//        System.out.println(new Recursion().ClimbStairs(3));
+//        System.out.println("BubbleSort<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+//        int[] b = {3, 5, 4, 1, 2, 6};
+//        int[] c = new Sort().BubbleSort(b);
+//        for (int i = 0; i < c.length; i++) {
+//            System.out.println(c[i]);
+//        }
+        System.out.println("InsertSort<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        int[] b = {3, 5, 4, 1, 2, 6};
+        int[] c = new Sort().InsertSort(b);
+        for (int i = 0; i < c.length; i++) {
+            System.out.println(c[i]);
+        }
     }
 
 
